@@ -20,6 +20,7 @@ list(APPEND aitisa_test_srcs
   relu_test.cpp
   horizontal_flip_test.cpp
   vertical_flip_test.cpp
+  image_transpose_test.cpp
 )
 
 # Build a exe for each test files
