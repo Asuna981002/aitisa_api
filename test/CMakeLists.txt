@@ -21,6 +21,33 @@ list(APPEND aitisa_test_srcs
   horizontal_flip_test.cpp
   vertical_flip_test.cpp
   image_transpose_test.cpp
+  random_horizontal_flip_test.cpp
+  random_vertical_flip_test.cpp
+  rot90_test.cpp
+  rgb_to_yuv_test.cpp
+  yuv_to_rgb_test.cpp
+  rgb_to_yiq_test.cpp
+  yiq_to_rgb_test.cpp
+  rgb_to_hsv_test.cpp
+  hsv_to_rgb_test.cpp
+  rgb_to_grayscale_test.cpp
+  grayscale_to_rgb_test.cpp
+  adjust_brightness_test.cpp
+  adjust_gamma_test.cpp
+  adjust_contrast_test.cpp
+  adjust_saturation_test.cpp
+  adjust_hue_test.cpp
+  random_brightness_test.cpp
+  random_contrast_test.cpp
+  random_hue_test.cpp
+  random_saturation_test.cpp
+  center_crop_test.cpp
+  random_crop_test.cpp
+  crop_to_bounding_box_test.cpp
+  pad_to_bounding_box_test.cpp
+  resize_with_crop_or_pad_test.cpp
+  image_normalize_test.cpp
+  image_gradients_test.cpp
 )
 
 # Build a exe for each test files

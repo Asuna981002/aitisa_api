@@ -4,10 +4,10 @@
 #include "src/core/tensor.h"
 
 /**
- * @brief
- * @details
+ * @brief Transpose the input image.
+ * @details Transpose the input image at each batch and channel.
  *
- * @param tensor1 Input image.
+ * @param input Input image.
  * @param output The output image pointer.
  * @return Status The Status enum indicates whether the routine is OK.
  */

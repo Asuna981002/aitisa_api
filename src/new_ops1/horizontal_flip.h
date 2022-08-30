@@ -4,10 +4,10 @@
 #include "src/core/tensor.h"
 
 /**
- * @brief
- * @details
+ * @brief Flip the input image horizontally.
+ * @details Flip the input image horizontally at each batch and channel.
  *
- * @param tensor1 Input image.
+ * @param input Input image.
  * @param output The output image pointer.
  * @return Status The Status enum indicates whether the routine is OK.
  */
