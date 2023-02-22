@@ -1,5 +1,5 @@
-#ifndef ADD_H
-#define ADD_H
+#ifndef MUL_ADD_H
+#define MUL_ADD_H
 
 #include "src/core/tensor.h"
 
@@ -20,6 +20,6 @@
  * @return Status The Status enum indicates whether the routine is OK.
  */
 
-AITISA_API_PUBLIC Status aitisa_add(const Tensor x, const Tensor y,
-                                    Tensor *z);
-#endif // ADD_H
+AITISA_API_PUBLIC Status aitisa_mul_add(const Tensor x, const Tensor y,
+                                        const Tensor a, Tensor *z);
+#endif // MUL_ADD_H

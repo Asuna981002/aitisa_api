@@ -52,7 +52,7 @@ list(APPEND aitisa_test_srcs
   gaussian_blur_test.cpp
   # new math ops
   expand_dims_test.cpp
-  add_test.cpp
+  mul_add_test.cpp
 )
 
 # Build a exe for each test files
