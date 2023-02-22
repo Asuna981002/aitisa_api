@@ -887,6 +887,19 @@ gaussian_blur_test/fast:
 .PHONY : gaussian_blur_test/fast
 
 #=============================================================================
+# Target rules for targets named expand_dims_test
+
+# Build rule for target.
+expand_dims_test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 expand_dims_test
+.PHONY : expand_dims_test
+
+# fast build rule for target.
+expand_dims_test/fast:
+	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/expand_dims_test.dir/build.make test/CMakeFiles/expand_dims_test.dir/build
+.PHONY : expand_dims_test/fast
+
+#=============================================================================
 # Target rules for targets named main
 
 # Build rule for target.
@@ -1330,6 +1343,30 @@ src/math/sqrt.s: src/math/sqrt.c.s
 src/math/sqrt.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/aitisa_api.dir/build.make CMakeFiles/aitisa_api.dir/src/math/sqrt.c.s
 .PHONY : src/math/sqrt.c.s
+
+src/new_math_ops/expand_dims.o: src/new_math_ops/expand_dims.c.o
+.PHONY : src/new_math_ops/expand_dims.o
+
+# target to build an object file
+src/new_math_ops/expand_dims.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/aitisa_api.dir/build.make CMakeFiles/aitisa_api.dir/src/new_math_ops/expand_dims.c.o
+.PHONY : src/new_math_ops/expand_dims.c.o
+
+src/new_math_ops/expand_dims.i: src/new_math_ops/expand_dims.c.i
+.PHONY : src/new_math_ops/expand_dims.i
+
+# target to preprocess a source file
+src/new_math_ops/expand_dims.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/aitisa_api.dir/build.make CMakeFiles/aitisa_api.dir/src/new_math_ops/expand_dims.c.i
+.PHONY : src/new_math_ops/expand_dims.c.i
+
+src/new_math_ops/expand_dims.s: src/new_math_ops/expand_dims.c.s
+.PHONY : src/new_math_ops/expand_dims.s
+
+# target to generate assembly for a file
+src/new_math_ops/expand_dims.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/aitisa_api.dir/build.make CMakeFiles/aitisa_api.dir/src/new_math_ops/expand_dims.c.s
+.PHONY : src/new_math_ops/expand_dims.c.s
 
 src/new_ops1/horizontal_flip.o: src/new_ops1/horizontal_flip.c.o
 .PHONY : src/new_ops1/horizontal_flip.o
@@ -2297,6 +2334,7 @@ help:
 	@echo "... dot_test"
 	@echo "... dropout_test"
 	@echo "... duplicate_test"
+	@echo "... expand_dims_test"
 	@echo "... gaussian_blur_test"
 	@echo "... gmock"
 	@echo "... gmock_main"
@@ -2390,6 +2428,9 @@ help:
 	@echo "... src/math/sqrt.o"
 	@echo "... src/math/sqrt.i"
 	@echo "... src/math/sqrt.s"
+	@echo "... src/new_math_ops/expand_dims.o"
+	@echo "... src/new_math_ops/expand_dims.i"
+	@echo "... src/new_math_ops/expand_dims.s"
 	@echo "... src/new_ops1/horizontal_flip.o"
 	@echo "... src/new_ops1/horizontal_flip.i"
 	@echo "... src/new_ops1/horizontal_flip.s"

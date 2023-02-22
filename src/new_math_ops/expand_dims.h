@@ -13,8 +13,8 @@
  * @param output The output tensor pointer.
  * @return Status The Status enum indicates whether the routine is OK.
  */
-AITISA_API_PUBLIC Status aitisa_reshape(const Tensor input,
-                                        const int axis,
-                                        Tensor *output);
+AITISA_API_PUBLIC Status aitisa_expand_dims(const Tensor input,
+                                           const int axis,
+                                           Tensor *output);
 
 #endif // EXPAND_DIMS_H

@@ -35,6 +35,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/aitisa_api.dir/src/math/matmul.c.o.d"
   "CMakeFiles/aitisa_api.dir/src/math/sqrt.c.o"
   "CMakeFiles/aitisa_api.dir/src/math/sqrt.c.o.d"
+  "CMakeFiles/aitisa_api.dir/src/new_math_ops/expand_dims.c.o"
+  "CMakeFiles/aitisa_api.dir/src/new_math_ops/expand_dims.c.o.d"
   "CMakeFiles/aitisa_api.dir/src/new_ops1/horizontal_flip.c.o"
   "CMakeFiles/aitisa_api.dir/src/new_ops1/horizontal_flip.c.o.d"
   "CMakeFiles/aitisa_api.dir/src/new_ops1/image_transpose.c.o"

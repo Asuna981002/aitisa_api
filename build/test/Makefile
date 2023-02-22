@@ -858,6 +858,20 @@ gaussian_blur_test/fast:
 .PHONY : gaussian_blur_test/fast
 
 # Convenience name for target.
+test/CMakeFiles/expand_dims_test.dir/rule:
+	cd /home/donghaosen/donghaosen/ops2023/aitisa_api/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/expand_dims_test.dir/rule
+.PHONY : test/CMakeFiles/expand_dims_test.dir/rule
+
+# Convenience name for target.
+expand_dims_test: test/CMakeFiles/expand_dims_test.dir/rule
+.PHONY : expand_dims_test
+
+# fast build rule for target.
+expand_dims_test/fast:
+	cd /home/donghaosen/donghaosen/ops2023/aitisa_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/expand_dims_test.dir/build.make test/CMakeFiles/expand_dims_test.dir/build
+.PHONY : expand_dims_test/fast
+
+# Convenience name for target.
 test/CMakeFiles/main.dir/rule:
 	cd /home/donghaosen/donghaosen/ops2023/aitisa_api/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/main.dir/rule
 .PHONY : test/CMakeFiles/main.dir/rule
@@ -1275,6 +1289,33 @@ duplicate_test.cpp.s:
 	cd /home/donghaosen/donghaosen/ops2023/aitisa_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/duplicate_test.dir/build.make test/CMakeFiles/duplicate_test.dir/duplicate_test.cpp.s
 	cd /home/donghaosen/donghaosen/ops2023/aitisa_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/main.dir/build.make test/CMakeFiles/main.dir/duplicate_test.cpp.s
 .PHONY : duplicate_test.cpp.s
+
+expand_dims_test.o: expand_dims_test.cpp.o
+.PHONY : expand_dims_test.o
+
+# target to build an object file
+expand_dims_test.cpp.o:
+	cd /home/donghaosen/donghaosen/ops2023/aitisa_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/expand_dims_test.dir/build.make test/CMakeFiles/expand_dims_test.dir/expand_dims_test.cpp.o
+	cd /home/donghaosen/donghaosen/ops2023/aitisa_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/main.dir/build.make test/CMakeFiles/main.dir/expand_dims_test.cpp.o
+.PHONY : expand_dims_test.cpp.o
+
+expand_dims_test.i: expand_dims_test.cpp.i
+.PHONY : expand_dims_test.i
+
+# target to preprocess a source file
+expand_dims_test.cpp.i:
+	cd /home/donghaosen/donghaosen/ops2023/aitisa_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/expand_dims_test.dir/build.make test/CMakeFiles/expand_dims_test.dir/expand_dims_test.cpp.i
+	cd /home/donghaosen/donghaosen/ops2023/aitisa_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/main.dir/build.make test/CMakeFiles/main.dir/expand_dims_test.cpp.i
+.PHONY : expand_dims_test.cpp.i
+
+expand_dims_test.s: expand_dims_test.cpp.s
+.PHONY : expand_dims_test.s
+
+# target to generate assembly for a file
+expand_dims_test.cpp.s:
+	cd /home/donghaosen/donghaosen/ops2023/aitisa_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/expand_dims_test.dir/build.make test/CMakeFiles/expand_dims_test.dir/expand_dims_test.cpp.s
+	cd /home/donghaosen/donghaosen/ops2023/aitisa_api/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/main.dir/build.make test/CMakeFiles/main.dir/expand_dims_test.cpp.s
+.PHONY : expand_dims_test.cpp.s
 
 gaussian_blur_test.o: gaussian_blur_test.cpp.o
 .PHONY : gaussian_blur_test.o
@@ -2246,6 +2287,7 @@ help:
 	@echo "... dot_test"
 	@echo "... dropout_test"
 	@echo "... duplicate_test"
+	@echo "... expand_dims_test"
 	@echo "... gaussian_blur_test"
 	@echo "... grayscale_to_rgb_test"
 	@echo "... horizontal_flip_test"
@@ -2326,6 +2368,9 @@ help:
 	@echo "... duplicate_test.o"
 	@echo "... duplicate_test.i"
 	@echo "... duplicate_test.s"
+	@echo "... expand_dims_test.o"
+	@echo "... expand_dims_test.i"
+	@echo "... expand_dims_test.s"
 	@echo "... gaussian_blur_test.o"
 	@echo "... gaussian_blur_test.i"
 	@echo "... gaussian_blur_test.s"

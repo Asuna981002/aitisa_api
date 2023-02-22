@@ -1,5 +1,5 @@
-#include "src/basic/expand_dims.h"
-#include "src/core/utils.h"
+#include "src/new_math_ops/expand_dims.h"
+#include "src/core/dispatch.h"
 
 #define expand_dims_kernel(typename)                      \
     {                                                     \

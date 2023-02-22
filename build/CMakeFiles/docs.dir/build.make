@@ -91,6 +91,7 @@ docs.stamp: /home/donghaosen/donghaosen/ops2023/aitisa_api/src/math/binary_op.h
 docs.stamp: /home/donghaosen/donghaosen/ops2023/aitisa_api/src/math/dot.h
 docs.stamp: /home/donghaosen/donghaosen/ops2023/aitisa_api/src/math/matmul.h
 docs.stamp: /home/donghaosen/donghaosen/ops2023/aitisa_api/src/math/sqrt.h
+docs.stamp: /home/donghaosen/donghaosen/ops2023/aitisa_api/src/new_math_ops/expand_dims.h
 docs.stamp: /home/donghaosen/donghaosen/ops2023/aitisa_api/src/new_ops1/horizontal_flip.h
 docs.stamp: /home/donghaosen/donghaosen/ops2023/aitisa_api/src/new_ops1/image_transpose.h
 docs.stamp: /home/donghaosen/donghaosen/ops2023/aitisa_api/src/new_ops1/random_horizontal_flip.h

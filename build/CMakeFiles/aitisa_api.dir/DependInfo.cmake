@@ -26,6 +26,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/donghaosen/donghaosen/ops2023/aitisa_api/src/math/dot.c" "CMakeFiles/aitisa_api.dir/src/math/dot.c.o" "gcc" "CMakeFiles/aitisa_api.dir/src/math/dot.c.o.d"
   "/home/donghaosen/donghaosen/ops2023/aitisa_api/src/math/matmul.c" "CMakeFiles/aitisa_api.dir/src/math/matmul.c.o" "gcc" "CMakeFiles/aitisa_api.dir/src/math/matmul.c.o.d"
   "/home/donghaosen/donghaosen/ops2023/aitisa_api/src/math/sqrt.c" "CMakeFiles/aitisa_api.dir/src/math/sqrt.c.o" "gcc" "CMakeFiles/aitisa_api.dir/src/math/sqrt.c.o.d"
+  "/home/donghaosen/donghaosen/ops2023/aitisa_api/src/new_math_ops/expand_dims.c" "CMakeFiles/aitisa_api.dir/src/new_math_ops/expand_dims.c.o" "gcc" "CMakeFiles/aitisa_api.dir/src/new_math_ops/expand_dims.c.o.d"
   "/home/donghaosen/donghaosen/ops2023/aitisa_api/src/new_ops1/horizontal_flip.c" "CMakeFiles/aitisa_api.dir/src/new_ops1/horizontal_flip.c.o" "gcc" "CMakeFiles/aitisa_api.dir/src/new_ops1/horizontal_flip.c.o.d"
   "/home/donghaosen/donghaosen/ops2023/aitisa_api/src/new_ops1/image_transpose.c" "CMakeFiles/aitisa_api.dir/src/new_ops1/image_transpose.c.o" "gcc" "CMakeFiles/aitisa_api.dir/src/new_ops1/image_transpose.c.o.d"
   "/home/donghaosen/donghaosen/ops2023/aitisa_api/src/new_ops1/random_horizontal_flip.c" "CMakeFiles/aitisa_api.dir/src/new_ops1/random_horizontal_flip.c.o" "gcc" "CMakeFiles/aitisa_api.dir/src/new_ops1/random_horizontal_flip.c.o.d"

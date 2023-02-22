@@ -23,6 +23,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/donghaosen/donghaosen/ops2023/aitisa_api/test/dot_test.cpp" "test/CMakeFiles/main.dir/dot_test.cpp.o" "gcc" "test/CMakeFiles/main.dir/dot_test.cpp.o.d"
   "/home/donghaosen/donghaosen/ops2023/aitisa_api/test/dropout_test.cpp" "test/CMakeFiles/main.dir/dropout_test.cpp.o" "gcc" "test/CMakeFiles/main.dir/dropout_test.cpp.o.d"
   "/home/donghaosen/donghaosen/ops2023/aitisa_api/test/duplicate_test.cpp" "test/CMakeFiles/main.dir/duplicate_test.cpp.o" "gcc" "test/CMakeFiles/main.dir/duplicate_test.cpp.o.d"
+  "/home/donghaosen/donghaosen/ops2023/aitisa_api/test/expand_dims_test.cpp" "test/CMakeFiles/main.dir/expand_dims_test.cpp.o" "gcc" "test/CMakeFiles/main.dir/expand_dims_test.cpp.o.d"
   "/home/donghaosen/donghaosen/ops2023/aitisa_api/test/gaussian_blur_test.cpp" "test/CMakeFiles/main.dir/gaussian_blur_test.cpp.o" "gcc" "test/CMakeFiles/main.dir/gaussian_blur_test.cpp.o.d"
   "/home/donghaosen/donghaosen/ops2023/aitisa_api/test/grayscale_to_rgb_test.cpp" "test/CMakeFiles/main.dir/grayscale_to_rgb_test.cpp.o" "gcc" "test/CMakeFiles/main.dir/grayscale_to_rgb_test.cpp.o.d"
   "/home/donghaosen/donghaosen/ops2023/aitisa_api/test/horizontal_flip_test.cpp" "test/CMakeFiles/main.dir/horizontal_flip_test.cpp.o" "gcc" "test/CMakeFiles/main.dir/horizontal_flip_test.cpp.o.d"

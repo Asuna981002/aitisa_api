@@ -793,6 +793,56 @@ CMakeFiles/aitisa_api.dir/src/math/sqrt.c.o: /home/donghaosen/donghaosen/ops2023
   /usr/include/bits/mathdef.h \
   /usr/include/bits/mathcalls.h
 
+CMakeFiles/aitisa_api.dir/src/new_math_ops/expand_dims.c.o: /home/donghaosen/donghaosen/ops2023/aitisa_api/src/new_math_ops/expand_dims.c \
+  /usr/include/stdc-predef.h \
+  /home/donghaosen/donghaosen/ops2023/aitisa_api/src/new_math_ops/expand_dims.h \
+  /home/donghaosen/donghaosen/ops2023/aitisa_api/src/core/tensor.h \
+  /usr/include/stdio.h \
+  /usr/include/features.h \
+  /usr/include/sys/cdefs.h \
+  /usr/include/bits/wordsize.h \
+  /usr/include/gnu/stubs.h \
+  /usr/include/gnu/stubs-64.h \
+  /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/stddef.h \
+  /usr/include/bits/types.h \
+  /usr/include/bits/typesizes.h \
+  /usr/include/libio.h \
+  /usr/include/_G_config.h \
+  /usr/include/wchar.h \
+  /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/stdarg.h \
+  /usr/include/bits/stdio_lim.h \
+  /usr/include/bits/sys_errlist.h \
+  /usr/include/string.h \
+  /usr/include/xlocale.h \
+  /home/donghaosen/donghaosen/ops2023/aitisa_api/src/core/shape.h \
+  /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/stdint.h \
+  /usr/include/stdint.h \
+  /usr/include/bits/wchar.h \
+  /usr/include/stdlib.h \
+  /usr/include/bits/waitflags.h \
+  /usr/include/bits/waitstatus.h \
+  /usr/include/endian.h \
+  /usr/include/bits/endian.h \
+  /usr/include/bits/byteswap.h \
+  /usr/include/bits/byteswap-16.h \
+  /usr/include/sys/types.h \
+  /usr/include/time.h \
+  /usr/include/sys/select.h \
+  /usr/include/bits/select.h \
+  /usr/include/bits/sigset.h \
+  /usr/include/bits/time.h \
+  /usr/include/sys/sysmacros.h \
+  /usr/include/bits/pthreadtypes.h \
+  /usr/include/alloca.h \
+  /usr/include/bits/stdlib-float.h \
+  /home/donghaosen/donghaosen/ops2023/aitisa_api/src/core/macros.h \
+  /home/donghaosen/donghaosen/ops2023/aitisa_api/src/core/status.h \
+  /home/donghaosen/donghaosen/ops2023/aitisa_api/src/core/storage.h \
+  /home/donghaosen/donghaosen/ops2023/aitisa_api/src/core/device.h \
+  /home/donghaosen/donghaosen/ops2023/aitisa_api/src/core/types.h \
+  /home/donghaosen/donghaosen/ops2023/aitisa_api/src/core/dispatch.h \
+  /home/donghaosen/donghaosen/ops2023/aitisa_api/src/core/log.h
+
 CMakeFiles/aitisa_api.dir/src/new_ops1/horizontal_flip.c.o: /home/donghaosen/donghaosen/ops2023/aitisa_api/src/new_ops1/horizontal_flip.c \
   /usr/include/stdc-predef.h \
   /home/donghaosen/donghaosen/ops2023/aitisa_api/src/new_ops1/horizontal_flip.h \
@@ -2299,6 +2349,64 @@ CMakeFiles/aitisa_api.dir/src/new_ops4/resize_with_crop_or_pad.c.o: /home/dongha
   /home/donghaosen/donghaosen/ops2023/aitisa_api/src/core/dispatch.h \
   /home/donghaosen/donghaosen/ops2023/aitisa_api/src/core/log.h
 
+CMakeFiles/aitisa_api.dir/src/new_ops5/gaussian_blur.c.o: /home/donghaosen/donghaosen/ops2023/aitisa_api/src/new_ops5/gaussian_blur.c \
+  /usr/include/stdc-predef.h \
+  /home/donghaosen/donghaosen/ops2023/aitisa_api/src/new_ops5/gaussian_blur.h \
+  /home/donghaosen/donghaosen/ops2023/aitisa_api/src/core/tensor.h \
+  /usr/include/stdio.h \
+  /usr/include/features.h \
+  /usr/include/sys/cdefs.h \
+  /usr/include/bits/wordsize.h \
+  /usr/include/gnu/stubs.h \
+  /usr/include/gnu/stubs-64.h \
+  /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/stddef.h \
+  /usr/include/bits/types.h \
+  /usr/include/bits/typesizes.h \
+  /usr/include/libio.h \
+  /usr/include/_G_config.h \
+  /usr/include/wchar.h \
+  /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/stdarg.h \
+  /usr/include/bits/stdio_lim.h \
+  /usr/include/bits/sys_errlist.h \
+  /usr/include/string.h \
+  /usr/include/xlocale.h \
+  /home/donghaosen/donghaosen/ops2023/aitisa_api/src/core/shape.h \
+  /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/stdint.h \
+  /usr/include/stdint.h \
+  /usr/include/bits/wchar.h \
+  /usr/include/stdlib.h \
+  /usr/include/bits/waitflags.h \
+  /usr/include/bits/waitstatus.h \
+  /usr/include/endian.h \
+  /usr/include/bits/endian.h \
+  /usr/include/bits/byteswap.h \
+  /usr/include/bits/byteswap-16.h \
+  /usr/include/sys/types.h \
+  /usr/include/time.h \
+  /usr/include/sys/select.h \
+  /usr/include/bits/select.h \
+  /usr/include/bits/sigset.h \
+  /usr/include/bits/time.h \
+  /usr/include/sys/sysmacros.h \
+  /usr/include/bits/pthreadtypes.h \
+  /usr/include/alloca.h \
+  /usr/include/bits/stdlib-float.h \
+  /home/donghaosen/donghaosen/ops2023/aitisa_api/src/core/macros.h \
+  /home/donghaosen/donghaosen/ops2023/aitisa_api/src/core/status.h \
+  /home/donghaosen/donghaosen/ops2023/aitisa_api/src/core/storage.h \
+  /home/donghaosen/donghaosen/ops2023/aitisa_api/src/core/device.h \
+  /home/donghaosen/donghaosen/ops2023/aitisa_api/src/core/types.h \
+  /home/donghaosen/donghaosen/ops2023/aitisa_api/src/core/dispatch.h \
+  /home/donghaosen/donghaosen/ops2023/aitisa_api/src/core/log.h \
+  /usr/include/math.h \
+  /usr/include/bits/huge_val.h \
+  /usr/include/bits/huge_valf.h \
+  /usr/include/bits/huge_vall.h \
+  /usr/include/bits/inf.h \
+  /usr/include/bits/nan.h \
+  /usr/include/bits/mathdef.h \
+  /usr/include/bits/mathcalls.h
+
 CMakeFiles/aitisa_api.dir/src/new_ops5/image_gradients.c.o: /home/donghaosen/donghaosen/ops2023/aitisa_api/src/new_ops5/image_gradients.c \
   /usr/include/stdc-predef.h \
   /home/donghaosen/donghaosen/ops2023/aitisa_api/src/new_ops5/image_gradients.h \
@@ -2844,6 +2952,8 @@ CMakeFiles/aitisa_api.dir/src/nn/tanh.c.o: /home/donghaosen/donghaosen/ops2023/a
 
 /home/donghaosen/donghaosen/ops2023/aitisa_api/src/new_ops3/adjust_brightness.h:
 
+/home/donghaosen/donghaosen/ops2023/aitisa_api/src/new_ops5/gaussian_blur.h:
+
 /home/donghaosen/donghaosen/ops2023/aitisa_api/src/new_ops2/yuv_to_rgb.c:
 
 /home/donghaosen/donghaosen/ops2023/aitisa_api/src/new_ops2/yiq_to_rgb.h:
@@ -2873,6 +2983,12 @@ CMakeFiles/aitisa_api.dir/src/nn/tanh.c.o: /home/donghaosen/donghaosen/ops2023/a
 /home/donghaosen/donghaosen/ops2023/aitisa_api/src/new_ops2/yuv_to_rgb.h:
 
 /home/donghaosen/donghaosen/ops2023/aitisa_api/src/new_ops1/random_vertical_flip.h:
+
+/home/donghaosen/donghaosen/ops2023/aitisa_api/src/new_ops3/random_hue.c:
+
+/home/donghaosen/donghaosen/ops2023/aitisa_api/src/new_ops3/adjust_brightness.c:
+
+/home/donghaosen/donghaosen/ops2023/aitisa_api/src/new_ops1/random_horizontal_flip.h:
 
 /home/donghaosen/donghaosen/ops2023/aitisa_api/src/core/device.h:
 
@@ -2992,6 +3108,8 @@ CMakeFiles/aitisa_api.dir/src/nn/tanh.c.o: /home/donghaosen/donghaosen/ops2023/a
 
 /usr/include/bits/types.h:
 
+/home/donghaosen/donghaosen/ops2023/aitisa_api/src/new_ops5/gaussian_blur.c:
+
 /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/stdarg.h:
 
 /home/donghaosen/donghaosen/ops2023/aitisa_api/src/math/binary_op.c:
@@ -3001,12 +3119,6 @@ CMakeFiles/aitisa_api.dir/src/nn/tanh.c.o: /home/donghaosen/donghaosen/ops2023/a
 /home/donghaosen/donghaosen/ops2023/aitisa_api/src/core/types.h:
 
 /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/stdbool.h:
-
-/home/donghaosen/donghaosen/ops2023/aitisa_api/src/new_ops3/random_hue.c:
-
-/home/donghaosen/donghaosen/ops2023/aitisa_api/src/new_ops3/adjust_brightness.c:
-
-/home/donghaosen/donghaosen/ops2023/aitisa_api/src/new_ops1/random_horizontal_flip.h:
 
 /home/donghaosen/donghaosen/ops2023/aitisa_api/src/new_ops3/random_saturation.c:
 
@@ -3019,6 +3131,8 @@ CMakeFiles/aitisa_api.dir/src/nn/tanh.c.o: /home/donghaosen/donghaosen/ops2023/a
 /home/donghaosen/donghaosen/ops2023/aitisa_api/src/basic/cast.c:
 
 /home/donghaosen/donghaosen/ops2023/aitisa_api/src/core/log.h:
+
+/home/donghaosen/donghaosen/ops2023/aitisa_api/src/new_math_ops/expand_dims.h:
 
 /usr/include/bits/wordsize.h:
 
@@ -3035,6 +3149,8 @@ CMakeFiles/aitisa_api.dir/src/nn/tanh.c.o: /home/donghaosen/donghaosen/ops2023/a
 /home/donghaosen/donghaosen/ops2023/aitisa_api/src/new_ops3/adjust_gamma.c:
 
 /home/donghaosen/donghaosen/ops2023/aitisa_api/src/basic/reshape.h:
+
+/home/donghaosen/donghaosen/ops2023/aitisa_api/src/new_math_ops/expand_dims.c:
 
 /home/donghaosen/donghaosen/ops2023/aitisa_api/src/basic/slice.c:
 

@@ -141,5 +141,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "test/CMakeFiles/image_normalize_test.dir/DependInfo.cmake"
   "test/CMakeFiles/image_gradients_test.dir/DependInfo.cmake"
   "test/CMakeFiles/gaussian_blur_test.dir/DependInfo.cmake"
+  "test/CMakeFiles/expand_dims_test.dir/DependInfo.cmake"
   "test/CMakeFiles/main.dir/DependInfo.cmake"
   )

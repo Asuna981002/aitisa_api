@@ -81,6 +81,7 @@
 /home/donghaosen/donghaosen/ops2023/aitisa_api/build/test/CMakeFiles/image_normalize_test.dir
 /home/donghaosen/donghaosen/ops2023/aitisa_api/build/test/CMakeFiles/image_gradients_test.dir
 /home/donghaosen/donghaosen/ops2023/aitisa_api/build/test/CMakeFiles/gaussian_blur_test.dir
+/home/donghaosen/donghaosen/ops2023/aitisa_api/build/test/CMakeFiles/expand_dims_test.dir
 /home/donghaosen/donghaosen/ops2023/aitisa_api/build/test/CMakeFiles/main.dir
 /home/donghaosen/donghaosen/ops2023/aitisa_api/build/test/CMakeFiles/test.dir
 /home/donghaosen/donghaosen/ops2023/aitisa_api/build/test/CMakeFiles/edit_cache.dir

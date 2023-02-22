@@ -31,6 +31,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/main.dir/dropout_test.cpp.o.d"
   "CMakeFiles/main.dir/duplicate_test.cpp.o"
   "CMakeFiles/main.dir/duplicate_test.cpp.o.d"
+  "CMakeFiles/main.dir/expand_dims_test.cpp.o"
+  "CMakeFiles/main.dir/expand_dims_test.cpp.o.d"
   "CMakeFiles/main.dir/gaussian_blur_test.cpp.o"
   "CMakeFiles/main.dir/gaussian_blur_test.cpp.o.d"
   "CMakeFiles/main.dir/grayscale_to_rgb_test.cpp.o"
