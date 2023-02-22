@@ -4,9 +4,13 @@
 #include "src/core/tensor.h"
 
 /**
- * @brief 
+ * @brief Crop the boundary of the input image to the given range.
  *
  * @param input The input tensor.
+ * @param offset_h The starting position of the upper boundary.
+ * @param offset_w The starting position of the left boundary.
+ * @param target_h The height of the cropped image.
+ * @param target_w The width of the cropped image.
  * @param output The output tensor pointer.
  * @return Status The Status enum indicates whether the routine is OK.
  */

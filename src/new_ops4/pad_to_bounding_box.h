@@ -4,9 +4,13 @@
 #include "src/core/tensor.h"
 
 /**
- * @brief 
+ * @brief Pad the boundary of the input image to the given range.
  *
  * @param input The input tensor.
+ * @param top The width of the top boundary.
+ * @param bot The width of the bottom boundary.
+ * @param left The width of the left boundary.
+ * @param right The width of the right boundary.
  * @param output The output tensor pointer.
  * @return Status The Status enum indicates whether the routine is OK.
  */

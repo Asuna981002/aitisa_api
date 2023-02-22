@@ -48,6 +48,7 @@ list(APPEND aitisa_test_srcs
   resize_with_crop_or_pad_test.cpp
   image_normalize_test.cpp
   image_gradients_test.cpp
+  gaussian_blur_test.cpp
 )
 
 # Build a exe for each test files

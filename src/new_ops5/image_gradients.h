@@ -4,11 +4,11 @@
 #include "src/core/tensor.h"
 
 /**
- * @brief
- * @details
+ * @brief Calculate the gradients of the input image in x and y directions.
  *
  * @param tensor1 Input image.
- * @param output The output image pointer.
+ * @param grad_x The gradient in the x direction.
+ * @param grad_y The gradient in the y direction.
  * @return Status The Status enum indicates whether the routine is OK.
  */
 

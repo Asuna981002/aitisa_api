@@ -1,0 +1,1 @@
+/usr/bin/c++  -std=c++11 -g CMakeFiles/sqrt_test.dir/sqrt_test.cpp.o -o ../bin/sqrt_test  -Wl,-rpath,/home/donghaosen/donghaosen/ops2023/aitisa_api/build/lib64 ../lib64/libgmock_maind.so -Wl,--no-as-needed ../lib64/libaitisa_api.so.0 -Wl,--as-needed ../lib64/libgmockd.so ../lib64/libgtestd.so -pthread 

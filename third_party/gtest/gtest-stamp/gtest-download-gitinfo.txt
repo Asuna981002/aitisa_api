@@ -1,0 +1,15 @@
+# This is a generated file and its contents are an internal implementation detail.
+# The download step will be re-executed if anything in this file changes.
+# No other meaning or use of this file is supported.
+
+method=git
+command=/mnt/sdb/home/donghaosen/apps/cmake-3.25.1-linux-x86_64/bin/cmake;-P;/home/donghaosen/donghaosen/ops2023/aitisa_api/third_party/gtest/gtest-tmp/gtest-download-gitclone.cmake
+source_dir=/home/donghaosen/donghaosen/ops2023/aitisa_api/third_party/gtest/gtest-src
+work_dir=/home/donghaosen/donghaosen/ops2023/aitisa_api/third_party/gtest
+repository=https://github.com/google/googletest.git
+remote=origin
+init_submodules=TRUE
+recurse_submodules=--recursive
+submodules=
+CMP0097=
+

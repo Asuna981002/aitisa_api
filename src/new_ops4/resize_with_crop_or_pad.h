@@ -4,9 +4,11 @@
 #include "src/core/tensor.h"
 
 /**
- * @brief 
+ * @brief Transforms the image to a specified size by cropping or padding.
  *
  * @param input The input tensor.
+ * @param target_h The height of the cropped image.
+ * @param target_w The width of the cropped image.
  * @param output The output tensor pointer.
  * @return Status The Status enum indicates whether the routine is OK.
  */

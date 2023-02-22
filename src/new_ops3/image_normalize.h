@@ -4,9 +4,11 @@
 #include "src/core/tensor.h"
 
 /**
- * @brief 
+ * @brief Normalize the input image according to the given mean and standard deviation.
  *
  * @param input The input tensor.
+ * @param mean The mean of each channel of the input image.
+ * @param std The standard deviation of each channel of the input image.
  * @param output The output tensor pointer.
  * @return Status The Status enum indicates whether the routine is OK.
  */

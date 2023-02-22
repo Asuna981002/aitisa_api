@@ -4,7 +4,7 @@
 #include "src/core/tensor.h"
 
 /**
- * @brief Convert rgb image to yuv image.
+ * @brief Convert grayscale image to rgb image.
  *
  * @param input The input tensor.
  * @param output The output tensor pointer.

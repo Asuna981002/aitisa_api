@@ -4,9 +4,11 @@
 #include "src/core/tensor.h"
 
 /**
- * @brief 
+ * @brief Randomly adjust the brightness of the input image according to the given parameter range.
  *
  * @param input The input tensor.
+ * @param lower The lower bound of the brightness factor.
+ * @param upper The upper bound of the brightness factor.
  * @param output The output tensor pointer.
  * @return Status The Status enum indicates whether the routine is OK.
  */

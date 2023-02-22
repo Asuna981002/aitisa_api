@@ -4,9 +4,11 @@
 #include "src/core/tensor.h"
 
 /**
- * @brief 
+ * @brief Gamma transform the image according to the input parameters.
  *
  * @param input The input tensor.
+ * @param gain Parameter gain of the transform.
+ * @param gamma Parameter gamma of the transform.
  * @param output The output tensor pointer.
  * @return Status The Status enum indicates whether the routine is OK.
  */

@@ -1,0 +1,13 @@
+# Target labels
+ gtest-download
+# Source files and their labels
+/mnt/sdb/home/donghaosen/ops2023/aitisa_api/third_party/gtest/gtest-download/CMakeFiles/gtest-download
+/mnt/sdb/home/donghaosen/ops2023/aitisa_api/third_party/gtest/gtest-download/CMakeFiles/gtest-download.rule
+/mnt/sdb/home/donghaosen/ops2023/aitisa_api/third_party/gtest/gtest-download/CMakeFiles/gtest-download-complete.rule
+/home/donghaosen/donghaosen/ops2023/aitisa_api/third_party/gtest/gtest-stamp/gtest-download-build.rule
+/home/donghaosen/donghaosen/ops2023/aitisa_api/third_party/gtest/gtest-stamp/gtest-download-configure.rule
+/home/donghaosen/donghaosen/ops2023/aitisa_api/third_party/gtest/gtest-stamp/gtest-download-download.rule
+/home/donghaosen/donghaosen/ops2023/aitisa_api/third_party/gtest/gtest-stamp/gtest-download-install.rule
+/home/donghaosen/donghaosen/ops2023/aitisa_api/third_party/gtest/gtest-stamp/gtest-download-mkdir.rule
+/home/donghaosen/donghaosen/ops2023/aitisa_api/third_party/gtest/gtest-stamp/gtest-download-patch.rule
+/home/donghaosen/donghaosen/ops2023/aitisa_api/third_party/gtest/gtest-stamp/gtest-download-test.rule

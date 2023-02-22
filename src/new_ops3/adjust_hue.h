@@ -4,9 +4,10 @@
 #include "src/core/tensor.h"
 
 /**
- * @brief 
+ * @brief Adjust the hue of the input image.
  *
  * @param input The input tensor.
+ * @param hue_factor Parameter for adjusting the hue of the input image.
  * @param output The output tensor pointer.
  * @return Status The Status enum indicates whether the routine is OK.
  */

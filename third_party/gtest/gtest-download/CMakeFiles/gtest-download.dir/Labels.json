@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/mnt/sdb/home/donghaosen/ops2023/aitisa_api/third_party/gtest/gtest-download/CMakeFiles/gtest-download"
+		},
+		{
+			"file" : "/mnt/sdb/home/donghaosen/ops2023/aitisa_api/third_party/gtest/gtest-download/CMakeFiles/gtest-download.rule"
+		},
+		{
+			"file" : "/mnt/sdb/home/donghaosen/ops2023/aitisa_api/third_party/gtest/gtest-download/CMakeFiles/gtest-download-complete.rule"
+		},
+		{
+			"file" : "/home/donghaosen/donghaosen/ops2023/aitisa_api/third_party/gtest/gtest-stamp/gtest-download-build.rule"
+		},
+		{
+			"file" : "/home/donghaosen/donghaosen/ops2023/aitisa_api/third_party/gtest/gtest-stamp/gtest-download-configure.rule"
+		},
+		{
+			"file" : "/home/donghaosen/donghaosen/ops2023/aitisa_api/third_party/gtest/gtest-stamp/gtest-download-download.rule"
+		},
+		{
+			"file" : "/home/donghaosen/donghaosen/ops2023/aitisa_api/third_party/gtest/gtest-stamp/gtest-download-install.rule"
+		},
+		{
+			"file" : "/home/donghaosen/donghaosen/ops2023/aitisa_api/third_party/gtest/gtest-stamp/gtest-download-mkdir.rule"
+		},
+		{
+			"file" : "/home/donghaosen/donghaosen/ops2023/aitisa_api/third_party/gtest/gtest-stamp/gtest-download-patch.rule"
+		},
+		{
+			"file" : "/home/donghaosen/donghaosen/ops2023/aitisa_api/third_party/gtest/gtest-stamp/gtest-download-test.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"gtest-download"
+		],
+		"name" : "gtest-download"
+	}
+}
