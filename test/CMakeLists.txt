@@ -18,6 +18,7 @@ list(APPEND aitisa_test_srcs
   batch_norm_test.cpp
   sigmoid_test.cpp
   relu_test.cpp
+  # new image ops
   horizontal_flip_test.cpp
   vertical_flip_test.cpp
   image_transpose_test.cpp
@@ -49,6 +50,8 @@ list(APPEND aitisa_test_srcs
   image_normalize_test.cpp
   image_gradients_test.cpp
   gaussian_blur_test.cpp
+  # new math ops
+  expand_dims_test.cpp
 )
 
 # Build a exe for each test files
